@@ -55,10 +55,10 @@ const Footer = () => {
         </Icons>
       
         <Row>
-        <a href='' onClick={handleClickToHome}><ImageLogo src={logo} /></a>
+        <LinksA onClick={handleClickToHome}><ImageLogo src={logo} /></LinksA>
         <p> 2022 All Rights Reserved</p>
-        <a href="#"><p>Mentions légales</p></a>
-        <a href="#"><p>Conditions génerales d'utilisation</p></a>
+        <LinksA href="#"><p>Mentions légales</p></LinksA>
+        <LinksA href="#"><p>Conditions génerales d'utilisation</p></LinksA>
         </Row>
         <Row>
             <div className='d-flex flex-column mb-3'>
