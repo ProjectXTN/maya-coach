@@ -41,8 +41,6 @@ export const Row = styled.div`
         width: 80%;
         margin-left: 80%;
         border-radius: 100px;
-        margin-top: -11%;
-        opacity: 85%;
     }
 `
 
@@ -62,6 +60,7 @@ export const TextOrientation = styled.div`
         border: 1px solid #111;
         box-shadow: 20px 20px 5px #111;
         letter-spacing: 1.7px;
-        margin-top: 5rem;
+        margin-top: -5rem;
+        margin-left: -10%;
     }
 `
