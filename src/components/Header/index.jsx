@@ -13,7 +13,7 @@ const Header = () => {
     const navigate = useNavigate();
 
     const handleClickToHome = () => {
-        navigate('/');
+        navigate('/maya-coach');
     }
 
     const handleClickToPageEtudiant = () => {
