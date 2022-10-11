@@ -1,0 +1,55 @@
+body,
+html {
+    margin: 0;
+}
+
+.bgimg-1,
+.bgimg-2,
+.bgimg-3 {
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container-wrapper{
+   /*  background-image: url("../../assets/images/coach1.jpg"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.bgimg-1{
+    background-image: url("../../assets/images/coach1.jpg");
+    min-height: 100vh;
+}
+
+.bgimg-2{
+    background-image: url("../../assets/images/image-paralax-3.jpg");
+    min-height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bgimg-3{
+    background-image: url("");
+    min-height: 100vh;
+}
+
+.TitleBg2 {
+    color: #FFF;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 500;
+    width: 50%;
+    background-color: #A9A9A970;
+    border-radius: 22px;
+}
+
+.textType {
+    font-size: 35px;
+}
