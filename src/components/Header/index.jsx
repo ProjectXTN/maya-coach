@@ -46,7 +46,7 @@ const Header = () => {
             <LinksA  onClick={handleClickToReconvertion}>RECONVERSION</LinksA>
             <LinksA  onClick={handleClickToSalarie}>SALARIÉ</LinksA>
             <LinksA  onClick={handleClickToRenseigner}>SE RENSEIGNER</LinksA>
-            <LinksA  href='' onClick={handleClickToContact}>CONTACT</LinksA>
+            <LinksA  onClick={handleClickToContact}>CONTACT</LinksA>
 
 
             <button className="navbar-toggler border border-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">

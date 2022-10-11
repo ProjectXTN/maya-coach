@@ -67,7 +67,7 @@ const Footer = () => {
             <LinksA onClick={handleClickToReconvertion}> &#62; RECONVERSION</LinksA>
             <LinksA onClick={handleClickToSalarie}> &#62; SALARIÉ</LinksA>
             <LinksA onClick={handleClickToRenseigner}> &#62; SE RENSEIGNER</LinksA>
-            <LinksA href='' onClick={handleClickToContact}> &#62; CONTACT</LinksA>
+            <LinksA onClick={handleClickToContact}> &#62; CONTACT</LinksA>
             </div>
 
         </Row> 
