@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/maya-coach/static/css/main.c9e7911f.css",
+    "main.js": "/maya-coach/static/js/main.4af41b71.js",
+    "static/media/image-paralax-3.jpg": "/maya-coach/static/media/image-paralax-3.f79eb5bdb80528890b75.jpg",
+    "static/media/Portrait-Maya-2.png": "/maya-coach/static/media/Portrait-Maya-2.efdea498fc60876730bd.png",
+    "static/media/temoignage-anna-1.jpg": "/maya-coach/static/media/temoignage-anna-1.699e4e30ffd709caa32c.jpg",
+    "static/media/coach1.jpg": "/maya-coach/static/media/coach1.ad119953f907d8a7b798.jpg",
+    "static/media/logo-white-05.png": "/maya-coach/static/media/logo-white-05.8e6a429845c0c92a0027.png",
+    "index.html": "/maya-coach/index.html",
+    "main.c9e7911f.css.map": "/maya-coach/static/css/main.c9e7911f.css.map",
+    "main.4af41b71.js.map": "/maya-coach/static/js/main.4af41b71.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c9e7911f.css",
+    "static/js/main.4af41b71.js"
+  ]
+}
