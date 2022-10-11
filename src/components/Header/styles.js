@@ -15,6 +15,7 @@ export const LinksA = styled.a`
     text-decoration: none;
     font-weight: 700;
     font-size: 14px;
+    cursor: pointer;
 
 
     &:hover {

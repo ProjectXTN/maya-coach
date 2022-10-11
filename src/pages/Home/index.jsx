@@ -2,10 +2,8 @@
 import React from 'react';
 import Typewriter from 'typewriter-effect';
 
-import { Header } from '../../components/Header';
-import { Button } from '../../components/Button';
-import { Footer } from '../../components/Footer';
 
+import { Button } from '../../components/Button';
 
 
 import  maya  from '../../assets/images/Portrait-Maya-2.png';
@@ -18,7 +16,6 @@ import './ManualParallax.css';
 const Home = () => {
   return (
     <>
-      <Header />
       <div className='container-wrapper'>
         <div className='bgimg-1'>
         <Container>
@@ -69,8 +66,6 @@ const Home = () => {
         Un merci grandiose à une femme magnifique remplie de joie de vivre.» Anna.</p>
        </TextAvis >
     </ContainerAvis>
-
-    <Footer />
     </>
   );
 }

@@ -6,18 +6,35 @@ import logo from '../../assets/images/logo-white-05.png';
 import { LogoImage, ContainerGlobal, LinksA, LinksOffCanvas } from './styles';
 
 import './style.css';
+import { useNavigate } from 'react-router-dom';
 
 const Header = () => {
+
+    const navigate = useNavigate();
+
+    const handleClickToHome = () => {
+        navigate('/');
+    }
+
+    const handleClickToPageEtudiant = () => {
+        navigate('/je-suis-etudiant');
+    }
+
+    const handleClickToContact = () => {
+        navigate('/contacte');
+    }
+
+
   return (
     <ContainerGlobal>
         <nav className="navbar">
         <div className="container-fluid d-flex justify-content-evenly">
-            <LinksA  href="#"><LogoImage src={ logo }/></LinksA>
-            <LinksA  href="#">JE SUIS ÉTUDIANT</LinksA>
+            <LinksA  onClick={handleClickToHome}><LogoImage src={ logo }/></LinksA>
+            <LinksA  onClick={handleClickToPageEtudiant}>JE SUIS ÉTUDIANT</LinksA>
             <LinksA  href="#">RECONVERSION</LinksA>
             <LinksA  href="#">SALARIÉ</LinksA>
             <LinksA  href="#">SE RENSEIGNER</LinksA>
-            <LinksA  href="#">CONTACT</LinksA>
+            <LinksA  onClick={handleClickToContact}>CONTACT</LinksA>
 
 
             <button className="navbar-toggler border border-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">

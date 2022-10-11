@@ -2,9 +2,9 @@ import React from 'react'
 
 import { ButtonContainer } from './styles'
 
-const Button = ({title, onclick}) => {
+const Button = ({title, onClick , variant = 'primary'}) => {
   return (
-    <ButtonContainer onclick={onclick}>{title}</ButtonContainer>
+    <ButtonContainer variant={variant} onClick={onClick}>{title}</ButtonContainer>
   )
 }
 
