@@ -48,7 +48,7 @@ export const ImageProfile = styled.img`
 export const  ContainerAvis = styled.div`
     display: flex;
     flex-direction: column;
-    height: 110vh;
+    height: 120vh;
     color: #111;
     align-items: center;
     justify-content: center;
@@ -64,6 +64,8 @@ export const  ContainerAvis = styled.div`
 
 export const TextAvis = styled.div`
     display: flex;
+    margin-left: -25%;
+    margin-top: 2rem;
 
     img{
         height: 500px;

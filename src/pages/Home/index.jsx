@@ -60,7 +60,7 @@ const Home = () => {
           </div>
       <ContainerAvis>
           <div>
-            <h2>CE QUE VOUS EN PENSEZ :</h2> 
+            <h2>CE QUE VOUS EN PENSEZ </h2> 
           </div>
         
         <TextAvis>

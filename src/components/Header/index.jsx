@@ -49,7 +49,7 @@ const Header = () => {
             <LinksA  onClick={handleClickToContact}>CONTACT</LinksA>
 
 
-            <button className="navbar-toggler border border-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <button className="navbar-toggler border border-3 border-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
             <span className="navbar-toggler-icon"></span>
             </button>
             <div className="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
