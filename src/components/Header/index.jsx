@@ -24,6 +24,18 @@ const Header = () => {
         navigate('/contacte');
     }
 
+    const handleClickToReconvertion = () => {
+        navigate('/reconvertion');
+    }
+
+    const handleClickToSalarie = () => {
+        navigate('/je-suis-en-poste');
+      }
+
+      const handleClickToRenseigner = () => {
+        navigate('/se-renseigner');
+      }
+
 
   return (
     <ContainerGlobal>
@@ -31,10 +43,10 @@ const Header = () => {
         <div className="container-fluid d-flex justify-content-evenly">
             <LinksA  onClick={handleClickToHome}><LogoImage src={ logo }/></LinksA>
             <LinksA  onClick={handleClickToPageEtudiant}>JE SUIS ÉTUDIANT</LinksA>
-            <LinksA  href="#">RECONVERSION</LinksA>
-            <LinksA  href="#">SALARIÉ</LinksA>
-            <LinksA  href="#">SE RENSEIGNER</LinksA>
-            <LinksA  onClick={handleClickToContact}>CONTACT</LinksA>
+            <LinksA  onClick={handleClickToReconvertion}>RECONVERSION</LinksA>
+            <LinksA  onClick={handleClickToSalarie}>SALARIÉ</LinksA>
+            <LinksA  onClick={handleClickToRenseigner}>SE RENSEIGNER</LinksA>
+            <LinksA  href='' onClick={handleClickToContact}>CONTACT</LinksA>
 
 
             <button className="navbar-toggler border border-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">

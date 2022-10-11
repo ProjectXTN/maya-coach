@@ -8,7 +8,7 @@ import { FaPhoneSquareAlt } from "react-icons/fa";
 import { MdMail } from "react-icons/md";
 
 
-import { ContainerFooter, Row, ImageLogo, Icons } from './styles';
+import { ContainerFooter, Row, ImageLogo, Icons, LinksA } from './styles';
 import { useNavigate } from 'react-router-dom';
 
 import logo from '../../assets/images/logo-white-05.png';
@@ -27,6 +27,18 @@ const Footer = () => {
 
   const handleClickToContact = () => {
       navigate('/contacte');
+  }
+
+  const handleClickToReconvertion = () => {
+    navigate('/reconvertion');
+  }
+
+  const handleClickToSalarie = () => {
+    navigate('/je-suis-en-poste');
+  }
+
+  const handleClickToRenseigner = () => {
+    navigate('/se-renseigner');
   }
 
   return (
@@ -51,11 +63,11 @@ const Footer = () => {
         <Row>
             <div className='d-flex flex-column mb-3'>
             <h4> Infos </h4>
-            <a href='' onClick={handleClickToPageEtudiant}> &#62; JE SUIS ÉTUDIANT</a>
-            <a href="#"> &#62; RECONVERSION</a>
-            <a href="#"> &#62; SALARIÉ</a>
-            <a href="#"> &#62; SE RENSEIGNER</a>
-            <a href='' onClick={handleClickToContact}> &#62; CONTACT</a>
+            <LinksA onClick={handleClickToPageEtudiant}> &#62; JE SUIS ÉTUDIANT</LinksA>
+            <LinksA onClick={handleClickToReconvertion}> &#62; RECONVERSION</LinksA>
+            <LinksA onClick={handleClickToSalarie}> &#62; SALARIÉ</LinksA>
+            <LinksA onClick={handleClickToRenseigner}> &#62; SE RENSEIGNER</LinksA>
+            <LinksA href='' onClick={handleClickToContact}> &#62; CONTACT</LinksA>
             </div>
 
         </Row> 

@@ -16,18 +16,19 @@ export const Row = styled.div`
     font-size: 16px;
     text-align:center;
 
-    a{
-        text-align:center;
-        text-decoration: none;
-        color: #FFF;
-        margin-bottom: 5px;
-        font-size: 12px;
+`
 
-        &:hover {
-            color: #B8860B;
-        }
-    }
+export const LinksA = styled.a`
+    text-align:center;
+    text-decoration: none;
+    color: #FFF;
+    margin-bottom: 5px;
+    font-size: 12px;
+    cursor: pointer;
 
+    &:hover {
+        color: #B8860B;
+}
 `
 
 export const ImageLogo = styled.img`
