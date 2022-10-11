@@ -2,6 +2,7 @@ import React from 'react';
 
 import { FaPhoneSquareAlt } from "react-icons/fa";
 import { MdMail } from "react-icons/md";
+import { motion } from 'framer-motion';
 
 import './style.css';
 
@@ -10,6 +11,11 @@ import { Container, Row } from './styles';
 const Contacte = () => {
   return (
     <>
+    <motion.div
+      initial={{width: 0}}
+      animate={{width: "100%"}}
+      exit={{ x: window.innerWidth, transition: {duration: 0.1}}}
+    >
         <div className='bgImg'>
             <Container>
                 <Row>
@@ -29,6 +35,7 @@ const Contacte = () => {
                 </Row>
             </Container>
         </div>
+    </motion.div>
     </>
   );
 }

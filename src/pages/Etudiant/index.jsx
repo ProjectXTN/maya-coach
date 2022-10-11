@@ -6,6 +6,7 @@ import { Button } from '../../components/Button';
 import imageEtudiant from '../../assets/images/etudiant-img.jpg';
 import imageEtudiant2 from '../../assets/images/etudiant-2.jpg'
 import { useNavigate } from 'react-router-dom';
+import { motion } from 'framer-motion';
 
 import { Container, Row, TextOrientation, BgRow } from './styles';
 
@@ -19,7 +20,12 @@ const Etudiant = () => {
 
 
   return (
-    <>
+    <>    
+    <motion.div
+    initial={{width: 0}}
+    animate={{width: "100%"}}
+    exit={{ x: window.innerWidth, transition: {duration: 0.1}}}
+    >
         <Container>
             <Row>
                 <h1>
@@ -50,6 +56,7 @@ const Etudiant = () => {
         <div className='text-center'>
             <Button title="Je contacte Maya" variant='secundary' onClick={handleClickToContact}/>
         </div>
+    </motion.div>
     </>
   )
 }
