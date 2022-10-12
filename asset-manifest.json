@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/maya-coach/static/css/main.7f0ff6cb.css",
-    "main.js": "/maya-coach/static/js/main.bcd9a039.js",
+    "main.css": "/maya-coach/static/css/main.317f1d88.css",
+    "main.js": "/maya-coach/static/js/main.097cfa20.js",
     "static/media/reconversion-1.jpg": "/maya-coach/static/media/reconversion-1.6f4c34f78e7e1d661019.jpg",
     "static/media/image-paralax-3.jpg": "/maya-coach/static/media/image-paralax-3.f79eb5bdb80528890b75.jpg",
     "static/media/Portrait-Maya-2.png": "/maya-coach/static/media/Portrait-Maya-2.efdea498fc60876730bd.png",
@@ -14,11 +14,11 @@
     "static/media/coach1.jpg": "/maya-coach/static/media/coach1.ad119953f907d8a7b798.jpg",
     "static/media/logo-white-05.png": "/maya-coach/static/media/logo-white-05.8e6a429845c0c92a0027.png",
     "index.html": "/maya-coach/index.html",
-    "main.7f0ff6cb.css.map": "/maya-coach/static/css/main.7f0ff6cb.css.map",
-    "main.bcd9a039.js.map": "/maya-coach/static/js/main.bcd9a039.js.map"
+    "main.317f1d88.css.map": "/maya-coach/static/css/main.317f1d88.css.map",
+    "main.097cfa20.js.map": "/maya-coach/static/js/main.097cfa20.js.map"
   },
   "entrypoints": [
-    "static/css/main.7f0ff6cb.css",
-    "static/js/main.bcd9a039.js"
+    "static/css/main.317f1d88.css",
+    "static/js/main.097cfa20.js"
   ]
 }
