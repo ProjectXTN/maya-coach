@@ -67,7 +67,7 @@ export const TextOrientation = styled.div`
         border: 1px solid #111;
         box-shadow: 20px 20px 5px #111;
         letter-spacing: 1.5px;
-        
+        text-align: justify;
     }
 `
 
