@@ -11,4 +11,6 @@ export const GlobalStyle = createGlobalStyle`
     body {
         color: #FFFFFF;
     }
-`
+
+
+`;

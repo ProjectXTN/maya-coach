@@ -1,3 +1,22 @@
 .offcanvas-end{
     background-color: #DEB887
 }
+
+@media screen and (max-width: 1170px) {
+
+}
+
+@media screen and (max-width: 970px) {
+    .respo-nav{
+        flex-direction: column;
+    }
+
+    .respo-nav button{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 750px) {
+
+}

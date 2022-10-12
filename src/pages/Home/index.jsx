@@ -43,7 +43,7 @@ const Home = () => {
 
 
       <ContainerWrapper>
-        <div>
+        <div className='text-center'>
           <ImageProfile src={ maya } />
         </div>
           <TextDescription>
@@ -59,6 +59,8 @@ const Home = () => {
             </div>
           </div>
       <ContainerAvis>
+
+
           <div>
             <h2>CE QUE VOUS EN PENSEZ </h2> 
           </div>

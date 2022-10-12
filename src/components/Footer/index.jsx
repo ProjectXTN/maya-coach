@@ -45,13 +45,13 @@ const Footer = () => {
     <>
     <ContainerFooter>        
         <Icons>
-            <h4 className='text-start'>Coordonnées</h4>
+            <h4>Coordonnées</h4>
             <a href='#'><MdFacebook/></a>
             <a href='#'><IoLogoInstagram /></a>
             <a href='#'><BsTwitter /></a>
-            <p className='text-start mt-1' >Contact</p>
-            <p className='text-start'><FaPhoneSquareAlt /> Tel : 06 85 02 08 02</p>
-            <p className='text-start'><MdMail /> maya.teamtom@gmail.com</p>
+            <p className=' mt-1' >Contact</p>
+            <p ><FaPhoneSquareAlt /> Tel : 06 85 02 08 02</p>
+            <p ><MdMail /> maya.teamtom@gmail.com</p>
         </Icons>
       
         <Row>

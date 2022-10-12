@@ -40,7 +40,7 @@ const Header = () => {
   return (
     <ContainerGlobal>
         <nav className="navbar">
-        <div className="container-fluid d-flex justify-content-evenly">
+        <div className="container-fluid d-flex justify-content-evenly respo-nav">
             <LinksA  onClick={handleClickToHome}><LogoImage src={ logo }/></LinksA>
             <LinksA  onClick={handleClickToPageEtudiant}>JE SUIS ÉTUDIANT</LinksA>
             <LinksA  onClick={handleClickToReconvertion}>RECONVERSION</LinksA>
@@ -61,30 +61,30 @@ const Header = () => {
            
                 <div className="offcanvas-body">
                 
-                <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
-                <li className="nav-item">
-                    <LinksA  href="#"><LogoImage src={ logo }/></LinksA>
-                </li>
-                <li className="nav-item">
-                    <LinksOffCanvas  className="nav-link" href="#">S'orienter</LinksOffCanvas>
-                </li>
-                <li className="nav-item">
-                    <LinksOffCanvas className="nav-link" href="#">Sé reorienter</LinksOffCanvas>
-                </li>
-                <li className="nav-item">
-                    <LinksOffCanvas className="nav-link" href="#">Faire des choix professionnels</LinksOffCanvas>
-                </li>
-                <li className="nav-item">
-                    <LinksOffCanvas className="nav-link" href="#">Se reconvertir/ Trouver sa voie</LinksOffCanvas>
-                </li>
-                <li className="nav-item">
-                    <LinksOffCanvas className="nav-link" href="#">Prend un nouveau poste</LinksOffCanvas>
-                </li>
-                <li className="nav-item">
-                    <LinksOffCanvas className="nav-link" href="#">Se former</LinksOffCanvas>
-                </li>
-                </ul>
-            </div>
+                    <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li className="nav-item">
+                        <LinksA  href="#"><LogoImage src={ logo }/></LinksA>
+                    </li>
+                    <li className="nav-item">
+                        <LinksOffCanvas  className="nav-link" href="#">S'orienter</LinksOffCanvas>
+                    </li>
+                    <li className="nav-item">
+                        <LinksOffCanvas className="nav-link" href="#">Sé reorienter</LinksOffCanvas>
+                    </li>
+                    <li className="nav-item">
+                        <LinksOffCanvas className="nav-link" href="#">Faire des choix professionnels</LinksOffCanvas>
+                    </li>
+                    <li className="nav-item">
+                        <LinksOffCanvas className="nav-link" href="#">Se reconvertir/ Trouver sa voie</LinksOffCanvas>
+                    </li>
+                    <li className="nav-item">
+                        <LinksOffCanvas className="nav-link" href="#">Prend un nouveau poste</LinksOffCanvas>
+                    </li>
+                    <li className="nav-item">
+                        <LinksOffCanvas className="nav-link" href="#">Se former</LinksOffCanvas>
+                    </li>
+                    </ul>
+                </div>
             </div> 
         </div>
         </nav>

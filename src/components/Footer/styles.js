@@ -9,6 +9,13 @@ export const ContainerFooter = styled.footer`
     justify-content: space-evenly;
     align-items: center;
     padding-bottom: 50px;
+
+    
+    @media screen and (width <= 750px) {
+        flex-direction: column;
+        height: 100%;
+        align-items: center;
+    }
 `
 
 export const Row = styled.div`
@@ -40,6 +47,14 @@ export const Icons = styled.div`
     font-size: 16px;
     text-align: start;
 
+    h4{
+        text-align: start;
+    }
+
+    p{
+        text-align: start;
+    }
+
     a{
         text-align:start;
         text-decoration: none;
@@ -52,4 +67,31 @@ export const Icons = styled.div`
         }
     }
 
+    
+    @media screen and (width <= 750px) {
+        text-align: center;
+
+        h4{
+            text-align: center;
+        }
+
+        p{
+            text-align: center;
+        }
+    
+        a{
+            text-align:center;
+            text-decoration: none;
+            color: #FFF;
+            margin-right: 1rem;
+            font-size: 32px;
+    
+            &:hover{
+                color: #B8860B;
+            }
+        }
+    }
+
 `
+
+
