@@ -35,6 +35,7 @@ export const Row = styled.div`
         letter-spacing: 1px;
         z-index: 2;
         font-weight: 500;
+        text-align: justify;
     }
 
     img{
@@ -62,5 +63,6 @@ export const TextOrientation = styled.div`
         letter-spacing: 1.7px;
         margin-top: -5rem;
         margin-left: -10%;
+        text-align: justify;
     }
 `

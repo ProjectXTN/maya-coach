@@ -35,6 +35,7 @@ export const Row = styled.div`
         font-size: 18px;
         font-weight: 500;
         letter-spacing: 1px;
+        text-align: justify;
         z-index: 2;
     }
 
@@ -66,6 +67,7 @@ export const TextOrientation = styled.div`
         border: 1px solid #111;
         box-shadow: 20px 20px 5px #111;
         letter-spacing: 1.5px;
+        
     }
 `
 

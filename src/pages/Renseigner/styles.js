@@ -41,6 +41,7 @@ export const Row = styled.div`
         margin-top: 1rem;
         background-color: #FFF;
         padding: 30px;
+        text-align: justify;
     }
 
     img{
@@ -68,5 +69,6 @@ export const TextOrientation = styled.div`
         box-shadow: 20px 20px 5px #111;
         letter-spacing: 1.7px;
         margin-top: 5rem;
+        text-align: justify;
     }
 `
