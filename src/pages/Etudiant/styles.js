@@ -42,7 +42,7 @@ export const Row = styled.div`
     img{
         width: 70%;
         margin-top: -11%;
-        margin-left: 90%;
+        margin-left: 100%;
         opacity: 90%;
         border-radius: 155px;
     }
