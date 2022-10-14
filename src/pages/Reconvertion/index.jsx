@@ -3,7 +3,7 @@ import React from 'react';
 
 import { Button } from '../../components/Button';
 
-import imageEtudiant from '../../assets/images/reconversion-1.jpg';
+import imageReconvertion from '../../assets/images/reconversion-1.jpg';
 import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 
@@ -37,7 +37,7 @@ const Reconvertion = () => {
                 </p>
             </Row>
             <Row>
-                <img src={ imageEtudiant }></img>
+                <img src={ imageReconvertion }></img>
             </Row>
         </Container>
 

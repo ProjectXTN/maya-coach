@@ -7,12 +7,21 @@ export const Container = styled.div`
     color: #111;
     align-items: center;
 
+    @media screen and (width <= 1200px) {
+
+    }
+
+    @media screen and (width <= 960px) {
+
+    }
+
+    @media screen and (width <= 750px) {
+
+    }
+
 `
 
 export const Row = styled.div`
-
-
-
 
     h1 {
         margin-top: 5rem;
@@ -25,5 +34,25 @@ export const Row = styled.div`
         margin-bottom: 3rem;
         font-size: 36px;
         font-weight: 700;
+    }
+
+    @media screen and (width <= 1200px) {
+
+    }
+
+    @media screen and (width <= 960px) {
+
+    }
+
+    @media screen and (width <= 750px) {
+        h1 {
+            font-size: 40px;
+
+        }
+    
+        h2 {
+
+            font-size: 22px;
+        }
     }
 `

@@ -31,5 +31,11 @@ export const ButtonContainer = styled.button`
             color: #FFF;
             background-color: #363636;
         }
+
+        @media screen and (width <= 750px) {
+            margin: 2rem;
+            padding: 10px 20px;
+            font-size: 20px;
+        }
     `}
 `

@@ -6,10 +6,21 @@ export const Container = styled.div`
     align-items: center;
     justify-content: center;
     width: 80%;
+
+    @media screen and (width <= 1200px) {
+        margin: auto;
+    }
+
+    @media screen and (width <= 960px) {
+
+    }
+
+    @media screen and (width <= 750px) {
+
+    }
 `
 
 export const Row = styled.div`
-    width: 100%;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -28,7 +39,7 @@ export const Row = styled.div`
 
     p{
         width: 65%;
-        height: 420px;
+        height: auto;
         color: #111;
         margin-left: 30%;
         font-size: 20px;
@@ -50,6 +61,49 @@ export const Row = styled.div`
         border-radius: 100px;
         margin-top: -8%;
     }
+
+    @media screen and (width <= 1200px) {
+        display:flex;
+        width: 100%;
+    
+        h1{
+            width:40%;
+            font-size: 50px;
+            margin: 2rem;
+    
+        }
+    
+        p{
+            width: 70%;
+            height: auto;
+            margin-left: 30%;
+            font-size: 20px;
+            letter-spacing: 1px;
+            letter-spacing: 1.7px;
+            margin-top: 1rem;
+            padding: 30px;
+        }
+    
+        img{
+            margin-left: -32%;
+            margin-top: -8%;
+        }
+    }
+
+    @media screen and (width <= 960px) {
+
+    }
+
+    @media screen and (width <= 750px) {
+        h1{
+            font-size: 40px;
+        }
+    
+        p{
+            font-size: 16px;
+        }
+    
+    }
 `
 
 export const TextOrientation = styled.div`
@@ -70,5 +124,34 @@ export const TextOrientation = styled.div`
         letter-spacing: 1.7px;
         margin-top: 5rem;
         text-align: justify;
+    }
+
+    @media screen and (width <= 1200px) {
+
+    }
+
+    @media screen and (width <= 960px) {
+        p{
+            height: 420px;
+            width: auto;
+            font-size: 20
+            px;
+            font-weight: 400;
+            padding: 30px;
+            background-color: #FFF;
+            margin-top: 5rem;
+        }
+    }
+
+    @media screen and (width <= 750px) {
+        p{
+            height: auto;
+            width: auto;
+            font-size: 16px;
+            font-weight: 400;
+            padding: 30px;
+            background-color: #FFF;
+            margin-top: 5rem;
+        }
     }
 `
