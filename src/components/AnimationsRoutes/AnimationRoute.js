@@ -13,7 +13,8 @@ import { Etudiant } from '../../pages/Etudiant';
 import { Contacte } from '../../pages/Contacte';
 import { Reconvertion } from '../../pages/Reconvertion';
 import { Salarie } from '../../pages/Salarie';
-import { Renseigner } from '../../pages/Renseigner'
+import { Renseigner } from '../../pages/Renseigner';
+import { Orienter } from '../../pages/Orienter'
 
 const AnimationRoute = () => {
 
@@ -28,6 +29,7 @@ const AnimationRoute = () => {
             <Route path="/reconvertion" element={<Reconvertion />} />
             <Route path="/je-suis-en-poste" element={<Salarie />} />
             <Route path="/se-renseigner" element={<Renseigner />} />
+            <Route path="/orienter" element={<Orienter />} />
         </Routes>
     </AnimatePresence>
     );

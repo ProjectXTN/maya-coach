@@ -4,7 +4,7 @@ import React from 'react';
 import { Button } from '../../components/Button';
 
 import imageEtudiant from '../../assets/images/etudiant-img.jpg';
-import imageEtudiant2 from '../../assets/images/etudiant-2.jpg'
+import imageEtudiant2 from '../../assets/images/etudiant-2.jpg';
 import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 

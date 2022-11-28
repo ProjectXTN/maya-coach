@@ -36,6 +36,10 @@ const Header = () => {
         navigate('/se-renseigner');
       }
 
+      const handleClickToOrienter = () => {
+        navigate('/orienter');
+      }
+
 
   return (
     <ContainerGlobal>
@@ -66,7 +70,7 @@ const Header = () => {
                         <LinksA  href="#"><LogoImage src={ logo }/></LinksA>
                     </li>
                     <li className="nav-item">
-                        <LinksOffCanvas  className="nav-link" href="#">S'orienter</LinksOffCanvas>
+                        <LinksA  className="nav-link" onClick={handleClickToOrienter}>S'orienter</LinksA>
                     </li>
                     <li className="nav-item">
                         <LinksOffCanvas className="nav-link" href="#">Sé reorienter</LinksOffCanvas>
