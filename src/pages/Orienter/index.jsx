@@ -70,13 +70,9 @@ const Orienter = () => {
                             </ul>
                         </p>
             </TextOrientation>
-
-            <BgRow> 
-                {/* <img src={ imageEtudiant2 }></img> */}
-            </BgRow>
         </Container2>
 
-        <div className='text-center'>
+        <div className='text-center mt-5'>
             <Button title="Je contacte Maya" variant='secundary' onClick={handleClickToContact}/>
         </div>
     </motion.div>

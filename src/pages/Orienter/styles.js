@@ -31,13 +31,15 @@ export const Container2 = styled.div`
     width: 80%;
 
     @media screen and (width <= 1200px) {
-        margin-top: -10%;
+        margin-top: 0%;
+        height: 40vh;
     }
 
 
     @media screen and (width <= 750px) {
         margin-top: 3rem;
         width: 100%;
+        height: 80vh;
 
     }
 `
@@ -105,8 +107,8 @@ export const Row = styled.div`
 
         img{
             width: 60%;
-            margin-top: -11%;
-            margin-left: 80%;
+            margin-top: 0%;
+            margin-left: 70%;
 
         }
     }
@@ -164,8 +166,8 @@ export const TextOrientation = styled.div`
         height: 70%;
 
         p{
-            height: 200px;
-            width: 600px;
+            height: 250px;
+            width: 640px;
             font-size: 16px;
             padding: 30px;
         }
@@ -173,15 +175,20 @@ export const TextOrientation = styled.div`
 
 
     @media screen and (width <= 750px) {
-        height: 50%;
+        height: 100%;
         margin-top: 3rem;
         margin-left: -3rem;
 
         p{
-            height: 300px;
-            width: 300px;
+            margin-left: 4rem;
+            height: 100%;
+            width: 80%;
             font-size: 14px;
-            padding: 30px;
+            padding: 20px;
+        }
+
+        li{
+            padding-top: 5px;
         }
     }
 `
