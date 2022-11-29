@@ -11,7 +11,7 @@ import  maya  from '../../assets/images/Portrait-Maya-2.png';
 import reviewImage from '../../assets/images/temoignage-anna-1.jpg';
 
 
-import { Container, TextDescription, ContainerWrapper, ImageProfile, ContainerAvis, TextAvis } from './styles';
+import { Container, TextDescription, ContainerWrapper, ImageProfile, ContainerAvis, TextAvis, BtnVoir } from './styles';
 import './ManualParallax.css';
 
 const Home = () => {
@@ -54,9 +54,11 @@ const Home = () => {
       </ContainerWrapper>
           <div className='bgimg-2'>
             <div className='TitleBg2'>UN ACCOMPAGNEMENT ADAPTÉ À VOTRE SITUATION</div>
-            <div>
-              <Button title="VOIR PLUS" />
-            </div>
+            
+              <BtnVoir className="navbar-toggler border border-3 border-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <span className="navbar-toggler-icon">VOIR PLUS</span>
+              </BtnVoir>
+            
           </div>
       <ContainerAvis>
 

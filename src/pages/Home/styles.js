@@ -35,6 +35,7 @@ export const ContainerWrapper = styled.div`
     width: 100%;
     padding: 40px 0;
 
+
     @media screen and (width <= 1200px) {
         div{
             width:55%;
@@ -200,4 +201,22 @@ export const TextAvis = styled.div`
             letter-spacing: 1.5px;
         }
     }
+`
+
+export const BtnVoir = styled.button`
+        height: 50px;
+        width: 120px;
+        margin-top: 1rem;
+        background-color: rgb(180, 180, 180);
+        border-radius: 25px;
+
+        &:hover{
+            background-color: #FFFFFF;
+            color: black ;
+        }
+
+        span{
+            margin-left: -10px;
+            margin-top: -5px;
+        }
 `

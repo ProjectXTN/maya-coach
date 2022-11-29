@@ -3,14 +3,13 @@ import React from 'react';
 
 import { Button } from '../../components/Button';
 
-
-import imageEtudiant from '../../assets/images/etudiant-2.jpg';
+import imageEtudiant from '../../assets/images/reconversion-1.jpg';
 import { motion } from 'framer-motion';
 import { useNavigate } from 'react-router-dom';
 
-import { Container, Row, TextOrientation, Container2 } from './styles';
+import { Container, Row, Container2, TextOrientation } from './styles'
 
-const Orienter = () => {
+const Reconvertir = () => {
 
     const navigate = useNavigate();
 
@@ -28,16 +27,16 @@ const Orienter = () => {
         <Container>
             <Row>
                 <h1>
-                S’orienter
+                Se reconvertir
                 </h1>
             </Row>
             <Row>
                 <p>           
-                Vous sortez du lycée ou avez démarré des études supérieures et vous devez choisir une orientation pour aller vers un métier.
+                Vous avez déjà eu une vie professionnelle et souhaitez changer de domaine ou de métier, vous savez ou ne savez pas encore vers quoi vous diriger
                 </p>
             </Row>
             <Row>
-                <img src={ imageEtudiant }></img>
+                 <img src={ imageEtudiant }></img>
             </Row>
         </Container>
 
@@ -51,22 +50,22 @@ const Orienter = () => {
                         <p>
                             <ul>
                                 <li>
-                                Étudier vos hésitations
+                                Faire le bilan de vos expériences précédentes
                                 </li>
                                 <li>
-                                Vous poser les bonnes questions avant de faire vos choix
+                                Reconnaitre vos ressources et trouver vos atouts
                                 </li>
                                 <li>
-                                Vous aider à faire l’inventaire de vos centres d’intérêt
+                                Analyser les obstacles pour mieux les contourner
                                 </li>
                                 <li>
-                                Faire ressortir les traits essentiels de votre personnalité
+                                Identifier des options adaptées
                                 </li>
                                 <li>
-                                Identifier vos ressources et vous apprendre à les utiliser
+                                Définir votre projet professionnel
                                 </li>
                                 <li>
-                                Réfléchir à vos valeurs et vous en servir de guide
+                                Mettre en place un plan d’action
                                 </li>
                             </ul>
                         </p>
@@ -81,4 +80,5 @@ const Orienter = () => {
   )
 }
 
-export { Orienter };
+
+export { Reconvertir };

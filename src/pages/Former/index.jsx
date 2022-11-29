@@ -3,14 +3,13 @@ import React from 'react';
 
 import { Button } from '../../components/Button';
 
-
-import imageEtudiant from '../../assets/images/etudiant-2.jpg';
+import imageEtudiant from '../../assets/images/etudiant-img.jpg';
 import { motion } from 'framer-motion';
 import { useNavigate } from 'react-router-dom';
 
-import { Container, Row, TextOrientation, Container2 } from './styles';
+import { Container, Row, Container2, TextOrientation } from './styles'
 
-const Orienter = () => {
+const Former = () => {
 
     const navigate = useNavigate();
 
@@ -28,16 +27,16 @@ const Orienter = () => {
         <Container>
             <Row>
                 <h1>
-                S’orienter
+                Se former
                 </h1>
             </Row>
             <Row>
                 <p>           
-                Vous sortez du lycée ou avez démarré des études supérieures et vous devez choisir une orientation pour aller vers un métier.
+                Vous souhaitez vous former pour accéder à de nouvelles opportunités professionnelles et vous cherchez quelle formation vous pourriez suivre
                 </p>
             </Row>
             <Row>
-                <img src={ imageEtudiant }></img>
+                 <img src={ imageEtudiant }></img>
             </Row>
         </Container>
 
@@ -51,22 +50,19 @@ const Orienter = () => {
                         <p>
                             <ul>
                                 <li>
-                                Étudier vos hésitations
+                                Choisir une formation en adéquation avec votre projet professionnel
                                 </li>
                                 <li>
-                                Vous poser les bonnes questions avant de faire vos choix
+                                Sélectionner le parcours menant à l’emploi
                                 </li>
                                 <li>
-                                Vous aider à faire l’inventaire de vos centres d’intérêt
+                                Faire le tri parmi tous les catalogues de formations proposées
                                 </li>
                                 <li>
-                                Faire ressortir les traits essentiels de votre personnalité
+                                Identifier le format qui vous convient (niveau, modalités, durée,)
                                 </li>
                                 <li>
-                                Identifier vos ressources et vous apprendre à les utiliser
-                                </li>
-                                <li>
-                                Réfléchir à vos valeurs et vous en servir de guide
+                                Réussir votre formation
                                 </li>
                             </ul>
                         </p>
@@ -81,4 +77,5 @@ const Orienter = () => {
   )
 }
 
-export { Orienter };
+
+export { Former };

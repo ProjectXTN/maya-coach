@@ -82,7 +82,7 @@ export const Row = styled.div`
     }
 
     img{
-        width: 70%;
+        width: 50%;
         margin-top: -0%;
         margin-left: 100%;
         opacity: 90%;
@@ -181,7 +181,7 @@ export const TextOrientation = styled.div`
 
         p{
             margin-left: 4rem;
-            height: 100%;
+            height: 60%;
             width: 80%;
             font-size: 14px;
             padding: 20px;

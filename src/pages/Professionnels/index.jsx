@@ -4,13 +4,13 @@ import React from 'react';
 import { Button } from '../../components/Button';
 
 
-import imageEtudiant from '../../assets/images/etudiant-2.jpg';
+import imageEtudiant from '../../assets/images/image-paralax-3.jpg';
 import { motion } from 'framer-motion';
 import { useNavigate } from 'react-router-dom';
 
 import { Container, Row, TextOrientation, Container2 } from './styles';
 
-const Orienter = () => {
+const Professionnels = () => {
 
     const navigate = useNavigate();
 
@@ -28,12 +28,12 @@ const Orienter = () => {
         <Container>
             <Row>
                 <h1>
-                S’orienter
+                Faire des choix professionnels
                 </h1>
             </Row>
             <Row>
                 <p>           
-                Vous sortez du lycée ou avez démarré des études supérieures et vous devez choisir une orientation pour aller vers un métier.
+                Vous êtes en poste et vous vous demandez si c’est le bon moment pour chercher une entreprise ou accepter un nouveau poste
                 </p>
             </Row>
             <Row>
@@ -51,22 +51,19 @@ const Orienter = () => {
                         <p>
                             <ul>
                                 <li>
-                                Étudier vos hésitations
+                                Faire le point sur votre situation ou bilan de carrière
                                 </li>
                                 <li>
-                                Vous poser les bonnes questions avant de faire vos choix
+                                Analyser votre questionnement
                                 </li>
                                 <li>
-                                Vous aider à faire l’inventaire de vos centres d’intérêt
+                                Comprendre votre envie de changement
                                 </li>
                                 <li>
-                                Faire ressortir les traits essentiels de votre personnalité
+                                Étudier de nouvelles propositions éventuelles
                                 </li>
                                 <li>
-                                Identifier vos ressources et vous apprendre à les utiliser
-                                </li>
-                                <li>
-                                Réfléchir à vos valeurs et vous en servir de guide
+                                Choisir la bonne piste
                                 </li>
                             </ul>
                         </p>
@@ -81,4 +78,4 @@ const Orienter = () => {
   )
 }
 
-export { Orienter };
+export { Professionnels };

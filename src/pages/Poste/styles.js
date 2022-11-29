@@ -149,7 +149,7 @@ export const TextOrientation = styled.div`
 
     p{
         color: #111;
-        height: 300px;
+        height: 260px;
         width: 850px;
         font-size: 24px;
         font-weight: 400;
@@ -181,7 +181,7 @@ export const TextOrientation = styled.div`
 
         p{
             margin-left: 4rem;
-            height: 100%;
+            height: 60%;
             width: 80%;
             font-size: 14px;
             padding: 20px;

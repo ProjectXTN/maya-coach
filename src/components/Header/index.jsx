@@ -3,7 +3,7 @@ import React from 'react';
 
 import logo from '../../assets/images/logo-white-05.png';
 
-import { LogoImage, ContainerGlobal, LinksA, LinksOffCanvas } from './styles';
+import { LogoImage, ContainerGlobal, LinksA } from './styles';
 
 import './style.css';
 import { useNavigate } from 'react-router-dom';
@@ -32,14 +32,33 @@ const Header = () => {
         navigate('/je-suis-en-poste');
       }
 
-      const handleClickToRenseigner = () => {
-        navigate('/se-renseigner');
-      }
+    const handleClickToRenseigner = () => {
+    navigate('/se-renseigner');
+    }
 
-      const handleClickToOrienter = () => {
-        navigate('/orienter');
-      }
+    const handleClickToOrienter = () => {
+    navigate('/orienter');
+    }
 
+    const handleClickToReorienter = () => {
+        navigate('/reorienter');
+        }
+
+    const handleClickToProfessionnels = () => {
+        navigate('/professionnels');
+    }
+
+    const handleClickToReconvertir = () => {
+        navigate('/reconvertir');
+    }
+
+    const handleClickToPoste = () => {
+        navigate('/poste');
+    }
+
+    const handleClickToFormer = () => {
+        navigate('/former');
+    }
 
   return (
     <ContainerGlobal>
@@ -73,19 +92,19 @@ const Header = () => {
                         <LinksA  className="nav-link" onClick={handleClickToOrienter}>S'orienter</LinksA>
                     </li>
                     <li className="nav-item">
-                        <LinksOffCanvas className="nav-link" href="#">Sé reorienter</LinksOffCanvas>
+                    <LinksA  className="nav-link" onClick={handleClickToReorienter}>Sé reorienter</LinksA>
                     </li>
                     <li className="nav-item">
-                        <LinksOffCanvas className="nav-link" href="#">Faire des choix professionnels</LinksOffCanvas>
+                    <LinksA  className="nav-link" onClick={handleClickToProfessionnels}>Faire des choix professionnels</LinksA>
                     </li>
                     <li className="nav-item">
-                        <LinksOffCanvas className="nav-link" href="#">Se reconvertir/ Trouver sa voie</LinksOffCanvas>
+                    <LinksA  className="nav-link" onClick={handleClickToReconvertir}>Se reconvertir/ Trouver sa voie</LinksA>
                     </li>
                     <li className="nav-item">
-                        <LinksOffCanvas className="nav-link" href="#">Prend un nouveau poste</LinksOffCanvas>
+                    <LinksA  className="nav-link" onClick={handleClickToPoste}>Prend un nouveau poste</LinksA>
                     </li>
                     <li className="nav-item">
-                        <LinksOffCanvas className="nav-link" href="#">Se former</LinksOffCanvas>
+                    <LinksA  className="nav-link" onClick={handleClickToFormer}>Se former</LinksA>
                     </li>
                     </ul>
                 </div>

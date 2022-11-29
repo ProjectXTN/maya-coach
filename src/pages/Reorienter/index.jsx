@@ -3,14 +3,13 @@ import React from 'react';
 
 import { Button } from '../../components/Button';
 
-
-import imageEtudiant from '../../assets/images/etudiant-2.jpg';
+import imageEtudiant from '../../assets/images/image-paralax-2.jpg';
 import { motion } from 'framer-motion';
 import { useNavigate } from 'react-router-dom';
 
-import { Container, Row, TextOrientation, Container2 } from './styles';
+import { Container, Row, Container2, TextOrientation } from './styles'
 
-const Orienter = () => {
+const Reorienter = () => {
 
     const navigate = useNavigate();
 
@@ -28,16 +27,16 @@ const Orienter = () => {
         <Container>
             <Row>
                 <h1>
-                S’orienter
+                Se réorienter
                 </h1>
             </Row>
             <Row>
                 <p>           
-                Vous sortez du lycée ou avez démarré des études supérieures et vous devez choisir une orientation pour aller vers un métier.
+                Vous avez commencé un cursus et après un premier parcours, vous voulez changer d’orientation mais craigniez de vous tromper à nouveau
                 </p>
             </Row>
             <Row>
-                <img src={ imageEtudiant }></img>
+                 <img src={ imageEtudiant }></img>
             </Row>
         </Container>
 
@@ -51,22 +50,19 @@ const Orienter = () => {
                         <p>
                             <ul>
                                 <li>
-                                Étudier vos hésitations
+                                Faire un état des lieux de votre situation et de vos acquis
                                 </li>
                                 <li>
-                                Vous poser les bonnes questions avant de faire vos choix
+                                Analyser et comprendre les raisons de ce besoin
                                 </li>
                                 <li>
-                                Vous aider à faire l’inventaire de vos centres d’intérêt
+                                Faire face à vos inquiétudes
                                 </li>
                                 <li>
-                                Faire ressortir les traits essentiels de votre personnalité
+                                Rebondir vers autre chose sans perdre le bénéfice de vos acquis
                                 </li>
                                 <li>
-                                Identifier vos ressources et vous apprendre à les utiliser
-                                </li>
-                                <li>
-                                Réfléchir à vos valeurs et vous en servir de guide
+                                Trouver la bonne direction
                                 </li>
                             </ul>
                         </p>
@@ -81,4 +77,5 @@ const Orienter = () => {
   )
 }
 
-export { Orienter };
+
+export { Reorienter };

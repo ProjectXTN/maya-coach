@@ -3,14 +3,13 @@ import React from 'react';
 
 import { Button } from '../../components/Button';
 
-
-import imageEtudiant from '../../assets/images/etudiant-2.jpg';
+import imageEtudiant from '../../assets/images/image-paralax-2.jpg';
 import { motion } from 'framer-motion';
 import { useNavigate } from 'react-router-dom';
 
-import { Container, Row, TextOrientation, Container2 } from './styles';
+import { Container, Row, Container2, TextOrientation } from './styles'
 
-const Orienter = () => {
+const Poste = () => {
 
     const navigate = useNavigate();
 
@@ -28,16 +27,16 @@ const Orienter = () => {
         <Container>
             <Row>
                 <h1>
-                S’orienter
+                Prendre un nouveau poste
                 </h1>
             </Row>
             <Row>
                 <p>           
-                Vous sortez du lycée ou avez démarré des études supérieures et vous devez choisir une orientation pour aller vers un métier.
+                On vient de vous confier un nouveau poste et vous souhaitez vous préparer à ce rôle du mieux possible pour être à la hauteur de votre nouvelle mission.
                 </p>
             </Row>
             <Row>
-                <img src={ imageEtudiant }></img>
+                 <img src={ imageEtudiant }></img>
             </Row>
         </Container>
 
@@ -51,22 +50,19 @@ const Orienter = () => {
                         <p>
                             <ul>
                                 <li>
-                                Étudier vos hésitations
+                                Entrer dans le rôle
                                 </li>
                                 <li>
-                                Vous poser les bonnes questions avant de faire vos choix
+                                Adopter la bonne posture
                                 </li>
                                 <li>
-                                Vous aider à faire l’inventaire de vos centres d’intérêt
+                                Prendre du recul et comprendre ce qui est attendu
                                 </li>
                                 <li>
-                                Faire ressortir les traits essentiels de votre personnalité
+                                Avancer avec méthode
                                 </li>
                                 <li>
-                                Identifier vos ressources et vous apprendre à les utiliser
-                                </li>
-                                <li>
-                                Réfléchir à vos valeurs et vous en servir de guide
+                                Vous donner vos propres premiers objectifs
                                 </li>
                             </ul>
                         </p>
@@ -81,4 +77,5 @@ const Orienter = () => {
   )
 }
 
-export { Orienter };
+
+export { Poste };
