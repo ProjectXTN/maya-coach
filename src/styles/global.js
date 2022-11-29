@@ -10,6 +10,10 @@ export const GlobalStyle = createGlobalStyle`
 
     body {
         color: #FFFFFF;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
     }
 
 
