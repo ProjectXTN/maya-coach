@@ -23,7 +23,9 @@ export const Container = styled.div`
     }
 `
 
-
+export const Wrapper = styled.div`
+    font-size: 16px;
+`
 
 export const ContainerWrapper = styled.div`
     display: flex;
