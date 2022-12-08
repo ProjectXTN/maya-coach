@@ -11,7 +11,7 @@ import  maya  from '../../assets/images/Portrait-Maya-2.png';
 import reviewImage from '../../assets/images/temoignage-anna-1.jpg';
 
 
-import { Container, TextDescription, ContainerWrapper, ImageProfile, ContainerAvis, TextAvis, BtnVoir } from './styles';
+import { Container, TextDescription, ContainerWrapper, ImageProfile, ContainerAvis, TextAvis, BtnVoir, TextAvis2 } from './styles';
 import './ManualParallax.css';
 
 const Home = () => {
@@ -75,6 +75,12 @@ const Home = () => {
           J’apprécie son écoute réelle et sa façon de m’aider à trouver les solutions. Grace à son aide j’ai pu ouvrir ma société, une agence de professeurs d’anglais. Cela a non seulement changé ma vie personnelle et financière mais également celle de mes enfants. Je n’aurai pas pu atteindre cette stabilité sans son aide.
           Un merci grandiose à une femme magnifique remplie de joie de vivre.» Anna.</p>
         </TextAvis >
+
+        <TextAvis2>
+          <p>
+          « Suite a un burn out une amie m’a conseillé de contacter Maya, j’ai donc pris contact avec elle en décembre 2016 et nous avons eu des séances de travail jusqu’en avril 2018. Les séances m’ont permise de retrouver un équilibre psychique et de prioriser mes besoins personnels tout en restant professionnelle. Pendant nos séances j’ai repris le travail et ai eu une proposition d’évolution de poste en interne, Maya m’a soutenue et accompagnée dans cette étape. Tout au long de nos séances je me sentais écoutée, comprise, libre de m’exprimer sans jugement, soutenue. Après ce travail de coaching j’ai pu enfin oser quitter mon emploi pour envisager un nouveau projet de vie. Les hasards de la vie m’ont conduite à partir aux Etats-Unis, où je m’y suis mariée et je vais bientôt donner naissance à mon premier enfant. Tout ce cheminement n’a pas toujours été facile mais grâce à Maya j’ai réussi à prendre des décisions « égoïstes » de vie tant professionnelles que personnelles. Il me reste encore des efforts à fournir mais je devenue une vraie battante. Je ne peux que recommander de faire appel à Maya. » Tatiana
+          </p>
+        </TextAvis2>
       </ContainerAvis>
     </motion.div>
     </>

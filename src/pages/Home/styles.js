@@ -205,11 +205,64 @@ export const TextAvis = styled.div`
     }
 `
 
+export const TextAvis2 = styled.div`
+display: flex;
+margin-top: 2rem;
+
+
+p{
+    height: 450px;
+    width: 950px;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 30px;
+    background-color: #FFF;
+    box-shadow: 20px 20px 5px #111;
+    letter-spacing: 1.5px;
+
+}
+
+
+@media screen and (width <=  960px) {
+    img{
+        height: 300px;
+    }
+
+    p{
+        height: 850px;
+        width: 350px;
+        font-size: 14px;
+        padding: 30px;
+        letter-spacing: 1.5px;
+    }
+    
+}
+
+@media screen and (width <= 750px) {
+    flex-direction: column;
+
+
+    img{
+        height: 200px;
+        margin-bottom: 1rem;
+        border-radius: 25px;
+    }
+
+    p{
+        height: 700px;
+        width: 220px;
+        font-size: 10px;
+        padding: 10px;
+        letter-spacing: 1.5px;
+    }
+}
+`
+
 export const BtnVoir = styled.button`
         height: 50px;
         width: 120px;
         margin-top: 1rem;
-        background-color: rgb(180, 180, 180);
+        background-color: rgba(180, 180, 180, 0.4);
         border-radius: 25px;
 
         &:hover{
