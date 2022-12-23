@@ -8,12 +8,12 @@ export const Container = styled.div`
     justify-content: center;
     width: 80%;
 
-    @media screen and (width <= 1200px) {
+    @media screen and (width < 1200px) {
         margin-top: -10%;
     }
 
 
-    @media screen and (width <= 750px) {
+    @media screen and (width < 750px) {
         margin-top: 3rem;
         width: 100%;
 
@@ -57,7 +57,7 @@ export const Row = styled.div`
         border-radius: 155px;
     }
 
-    @media screen and (width <= 1200px) {
+    @media screen and (width < 1200px) {
         width: 100%;
 
         h1{
@@ -82,7 +82,7 @@ export const Row = styled.div`
     }
 
 
-    @media screen and (width <= 750px) {
+    @media screen and (width < 750px) {
         width: 100%;
         
 
@@ -130,7 +130,7 @@ export const TextOrientation = styled.div`
         margin-left: 3rem;
     }
 
-    @media screen and (width <= 1200px) {
+    @media screen and (width < 1200px) {
         height: 70%;
 
         p{
@@ -142,7 +142,7 @@ export const TextOrientation = styled.div`
     }
 
 
-    @media screen and (width <= 750px) {
+    @media screen and (width < 750px) {
         height: 50%;
         margin-top: 3rem;
         margin-left: -3rem;
@@ -170,7 +170,7 @@ export const BgRow = styled.div`
         border-radius: 155px;
     }
 
-    @media screen and (width <= 1200px) {
+    @media screen and (width < 1200px) {
 
     
         img{
@@ -181,7 +181,7 @@ export const BgRow = styled.div`
         }
     }
 
-    @media screen and (width <= 960px) {
+    @media screen and (width < 960px) {
         img{
             width: 100%;
             margin-top: -63%;
@@ -190,7 +190,7 @@ export const BgRow = styled.div`
         }
     }
 
-    @media screen and (width <= 750px) {
+    @media screen and (width < 750px) {
         display:flex;
         justify-content: center;
         align-items: center;

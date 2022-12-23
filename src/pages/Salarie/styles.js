@@ -7,15 +7,15 @@ export const Container = styled.div`
     justify-content: center;
     width: 80%;
 
-    @media screen and (width <= 1200px) {
+    @media screen and (width < 1200px) {
 
     }
 
-    @media screen and (width <= 960px) {
+    @media screen and (width < 960px) {
 
     }
 
-    @media screen and (width <= 750px) {
+    @media screen and (width < 750px) {
 
     }
 `
@@ -55,7 +55,7 @@ export const Row = styled.div`
         border-radius: 100px;
     }
 
-    @media screen and (width <= 1200px) {
+    @media screen and (width < 1200px) {
         width: 80%;
     
     
@@ -80,7 +80,7 @@ export const Row = styled.div`
         }
     }
 
-    @media screen and (width <= 960px) {
+    @media screen and (width < 960px) {
         h1{
             width:40%;
             font-size: 40px;
@@ -100,7 +100,7 @@ export const Row = styled.div`
         }
     }
 
-    @media screen and (width <= 750px) {
+    @media screen and (width < 750px) {
         width: auto;
 
 
@@ -145,7 +145,7 @@ export const TextOrientation = styled.div`
         text-align: justify;
     }
 
-    @media screen and (width <= 1200px) {
+    @media screen and (width < 1200px) {
         p{
 
             height: auto;
@@ -157,7 +157,7 @@ export const TextOrientation = styled.div`
         }
     }
 
-    @media screen and (width <= 960px) {
+    @media screen and (width < 960px) {
         p{
 
             height: auto;
@@ -169,7 +169,7 @@ export const TextOrientation = styled.div`
         }
     }
 
-    @media screen and (width <= 750px) {
+    @media screen and (width < 750px) {
 
     }
 `

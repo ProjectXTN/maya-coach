@@ -7,15 +7,15 @@ export const Container = styled.div`
     justify-content: center;
     width: 80%;
 
-    @media screen and (width <= 1200px) {
+    @media screen and (width < 1200px) {
         margin: auto;
     }
 
-    @media screen and (width <= 960px) {
+    @media screen and (width < 960px) {
 
     }
 
-    @media screen and (width <= 750px) {
+    @media screen and (width < 750px) {
 
     }
 `
@@ -62,7 +62,7 @@ export const Row = styled.div`
         margin-top: -8%;
     }
 
-    @media screen and (width <= 1200px) {
+    @media screen and (width < 1200px) {
         display:flex;
         width: 100%;
     
@@ -90,11 +90,11 @@ export const Row = styled.div`
         }
     }
 
-    @media screen and (width <= 960px) {
+    @media screen and (width < 960px) {
 
     }
 
-    @media screen and (width <= 750px) {
+    @media screen and (width < 750px) {
         h1{
             font-size: 40px;
         }
@@ -126,11 +126,11 @@ export const TextOrientation = styled.div`
         text-align: justify;
     }
 
-    @media screen and (width <= 1200px) {
+    @media screen and (width < 1200px) {
 
     }
 
-    @media screen and (width <= 960px) {
+    @media screen and (width < 960px) {
         p{
             height: 420px;
             width: auto;
@@ -143,7 +143,7 @@ export const TextOrientation = styled.div`
         }
     }
 
-    @media screen and (width <= 750px) {
+    @media screen and (width < 750px) {
         p{
             height: auto;
             width: auto;

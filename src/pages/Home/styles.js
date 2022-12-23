@@ -9,15 +9,15 @@ export const Container = styled.div`
     height: 100vh;
     font-size: 35px;
 
-    @media screen and (width <= 1200px) {
+    @media screen and (width < 1200px) {
 
     }
 
-    @media screen and (width <= 960px) {
+    @media screen and (width < 960px) {
         font-size: 22px;
     }
 
-    @media screen and (width <= 750px) {
+    @media screen and (width < 750px) {
         font-size: 18px;
         margin-left: 3rem;
     }
@@ -38,7 +38,7 @@ export const ContainerWrapper = styled.div`
     padding: 40px 0;
 
 
-    @media screen and (width <= 1200px) {
+    @media screen and (width < 1200px) {
         div{
             width:55%;
             justify-content: center;
@@ -46,13 +46,13 @@ export const ContainerWrapper = styled.div`
         }
     }
 
-    @media screen and (width <= 960px) {
+    @media screen and (width < 960px) {
         div{
             width:49%;
         }
     }
 
-    @media screen and (width <= 750px) {
+    @media screen and (width < 750px) {
         flex-direction: column;
 
         div{
@@ -73,12 +73,12 @@ export const TextDescription = styled.div`
         margin-bottom: 2rem;
     }
 
-    @media screen and (width <= 1200px) {
+    @media screen and (width < 1200px) {
         font-size: 14px;
         margin-right: 10px;
     }
 
-    @media screen and (width <=  960px) {
+    @media screen and (width <  960px) {
         font-size: 14px;
         width: 40%;
 
@@ -93,7 +93,7 @@ export const TextDescription = styled.div`
         }
     }
 
-    @media screen and (width <= 750px) {
+    @media screen and (width < 750px) {
         font-size: 12px;
         text-align: justify;
     }
@@ -103,7 +103,7 @@ export const ImageProfile = styled.img`
     border-radius: 50%;
     width: 70%;
 
-    @media screen and (width <= 1200px) {
+    @media screen and (width < 1200px) {
         div{
             width:55%;
         }
@@ -130,7 +130,7 @@ export const  ContainerAvis = styled.div`
         margin-top: 25px;
     }
 
-    @media screen and (width <= 750px) {
+    @media screen and (width < 750px) {
         height: 100%;
         padding-bottom: 25px;
 
@@ -165,12 +165,12 @@ export const TextAvis = styled.div`
         letter-spacing: 1.5px;
     }
 
-    @media screen and (width <= 1200px) {
+    @media screen and (width < 1200px) {
         margin-left: 0;
 
     }
 
-    @media screen and (width <=  960px) {
+    @media screen and (width <  960px) {
         img{
             height: 300px;
         }
@@ -185,7 +185,7 @@ export const TextAvis = styled.div`
         
     }
 
-    @media screen and (width <= 750px) {
+    @media screen and (width < 750px) {
         flex-direction: column;
 
 
@@ -206,8 +206,9 @@ export const TextAvis = styled.div`
 `
 
 export const TextAvis2 = styled.div`
-display: flex;
-margin-top: 2rem;
+    display: flex;
+    margin-top: 2rem;
+    margin-left: 20rem;
 
 
 p{
@@ -222,11 +223,14 @@ p{
 
 }
 
+@media screen and (width <  1260px) {
+    margin-left: 0px;
+}
 
-@media screen and (width <=  960px) {
-    img{
-        height: 300px;
-    }
+
+
+@media screen and (width <  960px) {
+    margin-left: 14rem;
 
     p{
         height: 850px;
@@ -238,15 +242,9 @@ p{
     
 }
 
-@media screen and (width <= 750px) {
+@media screen and (width < 750px) {
     flex-direction: column;
-
-
-    img{
-        height: 200px;
-        margin-bottom: 1rem;
-        border-radius: 25px;
-    }
+    margin-left: 0px;
 
     p{
         height: 700px;

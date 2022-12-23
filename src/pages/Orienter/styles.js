@@ -9,12 +9,12 @@ export const Container = styled.div`
     justify-content: center;
     width: 80%;
 
-    @media screen and (width <= 1200px) {
+    @media screen and (width < 1200px) {
         margin-top: -10%;
     }
 
 
-    @media screen and (width <= 750px) {
+    @media screen and (width < 750px) {
         margin-top: 3rem;
         width: 100%;
 
@@ -30,13 +30,13 @@ export const Container2 = styled.div`
     justify-content: center;
     width: 80%;
 
-    @media screen and (width <= 1200px) {
+    @media screen and (width < 1200px) {
         margin-top: 0%;
         height: 40vh;
     }
 
 
-    @media screen and (width <= 750px) {
+    @media screen and (width < 750px) {
         margin-top: 3rem;
         width: 100%;
         height: 80vh;
@@ -89,7 +89,7 @@ export const Row = styled.div`
         border-radius: 155px;
     }
 
-    @media screen and (width <= 1200px) {
+    @media screen and (width < 1200px) {
         width: 100%;
 
         h1{
@@ -114,7 +114,7 @@ export const Row = styled.div`
     }
 
 
-    @media screen and (width <= 750px) {
+    @media screen and (width < 750px) {
         width: 100%;
         
 
@@ -162,7 +162,7 @@ export const TextOrientation = styled.div`
         margin-left: 3rem;
     }
 
-    @media screen and (width <= 1200px) {
+    @media screen and (width < 1200px) {
         height: 70%;
 
         p{
@@ -174,7 +174,7 @@ export const TextOrientation = styled.div`
     }
 
 
-    @media screen and (width <= 750px) {
+    @media screen and (width < 750px) {
         height: 100%;
         margin-top: 3rem;
         margin-left: -3rem;
